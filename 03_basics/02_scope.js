@@ -5,10 +5,10 @@ if(true){
 
     let a = 10
     const b = 20
-console.log("Inner:", a);
+// console.log("Inner:", a);
     }
 
- console.log(a);
+//  console.log(a);
 // console.log(b);
 
 //node 03_basics/02_scope.js
@@ -31,10 +31,26 @@ function one(){
 if (true) {
     const username = "kumar"
     if (username ==="kumar") {
-    const website ="github"
+    const website = "  github"
+
+    // console.log(username +website)
     } 
     // console.log(website);
 } 
-console.log(username);
+//  console.log(username);
+
+// ================ intresting =============
 
 
+console.log(addone(5));
+
+function addone(num){
+   return num + 1
+ }
+
+
+ const addTWo = function(num){
+    return num + 2 
+ }
+ console.log(addTWo(5));
+ 
